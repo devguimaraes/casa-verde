@@ -1,16 +1,70 @@
+@import url("/Assets/css/reset.css");
 @import url("/Assets/css/componentes/botao.css");
+@import url("/Assets/css/componentes/input.css");
+@import url("/Assets/css/componentes/cartao.css");
 
 :root {
     --amarelo: #FFCB47;
     --branco: #FFFFFF;
     --preto: #202020;
     --cinza: #909090;
+    --sombra: 10px 10px 30px #00000006;
 
     --monteserrat: 'Montserrat', sans-serif;
     --elsie: 'Elsie Swash Caps', cursive;
 
+    --peso-titulo-destaque: 900;
+    --peso-botao: 700;
 
+
+    --tamnho-corpo: 1rem;
+    --tamanho-titulo: 1.375rem;
+    --tamanho-titulo-destaque: 2rem;
 }
+
+body{
+    font-family: var(--monteserrat);
+    font-size: (--tamnho-corpo);
+    color: var(--cinza);
+
+    background: url("/Assets/img/fundo-textura.png"), url("/Assets/img/fundo-linhas.png");
+    background-position: center;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.titulo {
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo--destaque {
+    font-family: var(--elsie);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+
+    display: block;
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.alinhamento-esquerda {
+    text-align: left;
+}
+
+.alinhamento-meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}
+
 
 
 
