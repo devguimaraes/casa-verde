@@ -1,0 +1,45 @@
+.lista-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+
+.item-icone {
+    display: block;
+
+    width: 3.25rem;
+    height: 3.25rem;
+
+    margin-right: 1rem;
+
+    border-radius: 50%;
+
+    background-color: var(--amarelo);
+
+    background-size: 1.375rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.item-icone--cursor {
+    background-image: url("/Assets/img/icones/seta.svg");
+}
+
+.item-icone--carrrinho {
+    background-image: url("/Assets/img/icones/carrinho.svg");
+}
+
+.item-icone--caminhao {
+    background-image: url("/Assets/img/icones/truck.svg");
+}
