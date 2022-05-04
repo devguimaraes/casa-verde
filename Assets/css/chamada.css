@@ -1,7 +1,7 @@
 .container--chamada {
     padding-top: 2.5rem;
     margin-bottom: 2.5rem;
-    background-image: url("/Assets/img/splash-background.png");
+    background-image: url("Assets/img/splash-background.png");
     background-position: top -11rem right;
     background-repeat: no-repeat;
 
