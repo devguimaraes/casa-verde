@@ -7,6 +7,7 @@
 @import url("/Assets/css/componentes/videos.css");
 @import url("/Assets/css/componentes/cabecalho.css");
 @import url("/Assets/css/componentes/footer.css");
+@import url("/Assets/css/chamada.css");
 
 
 :root {
@@ -33,7 +34,7 @@ body{
     font-size: (--tamnho-corpo);
     color: var(--cinza);
 
-    background: url("/Assets/img/fundo-textura.png"), url("/Assets/img/fundo-linhas.png");
+    background: url("/Assets/img/fundo-textura.png");
     background-position: center;
 }
 
@@ -41,6 +42,13 @@ body{
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.container--titulo {
+   
+    margin-bottom: 2rem;
+}
+
+
 
 
 .titulo {
@@ -68,6 +76,7 @@ body{
 }
 
 .texto {
+    font-weight: 500;
     line-height: 26px;
 }
 

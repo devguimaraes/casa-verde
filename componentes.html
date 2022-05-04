@@ -1,30 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa Verde</title>
+    <link rel="shortcut icon" href="Assets/img/logo.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Casa Verde | Home </title>
 </head>
+
 <body>
+
+    <!-- Estrutura do cabecalho -->
     <header class="container cabecalho">
         <img src="/Assets/img/logo.svg" alt="logo tipo casa verde" class="cabecalho__logo">
         <a href="#" aria-label="carrinho de compras"><img src="Assets/img/icones/carrinho-amarelo.svg" alt=""
                 class="cabecalho__carrinho"></a>
     </header>
-    <main>
-        <section class="container--chamada">
-            <h2 class="titulo">Sua casa com as <span class="titulo--destaque">melhores plantas</span></h2>
-            
-            <p class="chamada__texto texto">Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca</p>
-            <img src="/Assets/img/planta-home.png" class="chamada__imagem" alt="planta da sessão de chamda">
-            <form action="" class="chamada__formulario"><input type="text" placeholder="Insira aqui seu e-mail" class="input input--icone input--email"><button class="botao">Assinar Newsletter</button></form>
-        </section>
+
+    <!-- Container -->
+
+    <main class="container">
+        <input type="text" class="input input--icone input--email" placeholder="insira aqui seu e-mail"
+            aria-label="Insira aqui seu e-mail">
+        <button type="button" class="botao">Assinar Newsletter</button>
+
         <article class="cartao">
             <h2 class="titulo alinhamento-meio">Como conseguir<span class="titulo--destaque">minha planta</span></h2>
 
@@ -43,10 +48,10 @@
                 </li>
             </ul>
         </article>
-       <section class="container container--titulo">
-        <h2 class="titulo alinhamento-meio">Conheça nossos<span class="titulo--destaque">Produtos</span></h2>
-       </section>
+
         <article class="produto">
+
+           
             <img src="/Assets/img/produto-01.1.png" alt="foto do produto" class="produto__imagem">
             <div class="produto__conteudo">
                 <h3 class="produto__titulo titulo--destaque">Ajuga Reptans</h3>
@@ -99,9 +104,6 @@
                 <a href="#" class="produto__comprar">Comprar<span class="produto__comprar--icone"></span></a>
             </div>
         </article>
-        <section class="container container--titulo">
-            <h2 class="titulo alinhamento-meio">Veja aqui nossos <span class="titulo--destaque">Vídeos</span></h2>
-           </section>
 
         <article class="cartao-de-video">
             <div class="cartao-de-video__video">
@@ -136,6 +138,7 @@
         </article>
 
     </main>
+
     <footer class="container rodape">
         <img src="/Assets/img/logo.svg" alt="logotipo casa verde" class="rodape_logo">
         <ul class="rodape__social">
@@ -156,6 +159,7 @@
         </address>
 
     </footer>
-    
+
 </body>
+
 </html>
