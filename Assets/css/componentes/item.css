@@ -33,13 +33,13 @@
 }
 
 .item-icone--cursor {
-    background-image: url("/Assets/img/icones/seta.svg");
+    background-image: url("Assets/img/icones/seta.svg");
 }
 
 .item-icone--carrrinho {
-    background-image: url("/Assets/img/icones/carrinho.svg");
+    background-image: url("Assets/img/icones/carrinho.svg");
 }
 
 .item-icone--caminhao {
-    background-image: url("/Assets/img/icones/truck.svg");
+    background-image: url("Assets/img/icones/truck.svg");
 }

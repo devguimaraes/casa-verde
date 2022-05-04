@@ -35,7 +35,7 @@
 
 
     background-color: var(--branco);
-    background-image: url("/Assets/img/icones/play.svg");
+    background-image: url("Assets/img/icones/play.svg");
     background-repeat: no-repeat;
     background-size: 1.75rem;
     background-position: center left 55%;
